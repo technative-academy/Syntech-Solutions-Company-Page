@@ -1,21 +1,16 @@
+/* Navigation Bar */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
 
-
-    /* Navigation Bar */
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        background-color: #333;
-        color: white;
-    }
-
-    .header-logo {
-        display: flex;
-        height: 20px;
-        width: auto;
-        align-items:center;
-    }
-
-
-
+.header-logo {
+    display: flex;
+    height: 20px;
+    width: auto;
+    align-items: center;
+}
