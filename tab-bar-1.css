@@ -1,0 +1,23 @@
+:root {
+  --tab-bar-tabs-background-color: rgb(240, 230, 249);
+}
+
+/* global */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tab-bar-tabs {
+  margin-top: 30px;
+}
+
+.tab-bar-1-tab {
+  background-color: var(--tab-bar-tabs-background-color);
+  border-bottom: 5px solid rgb(160, 69, 245);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
