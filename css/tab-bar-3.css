@@ -28,10 +28,10 @@
     /* padding: 30px; */
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
     .tab-bar-3-container {
     }
-}
+} */
 
 .tab-bar-3-container-textarea {
     padding: 30px;
