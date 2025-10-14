@@ -1,6 +1,7 @@
 :root {
     --alt-background-color: rgb(240, 230, 249);
-    --tab-bar-background-color: rgb(234, 234, 234);
+    --tab-bar-background-color-white: rgb(255, 255, 255);
+    --tab-bar-background-color-lightPink: rgb(254, 245, 255);
     --tab-bar-box-shadow-glow: 0 0 50px 20px #e6ccff;
     --tab-bar-button-background-color: rgb(205, 157, 250);
     --tab-bar-button-text-font-size: 20px;

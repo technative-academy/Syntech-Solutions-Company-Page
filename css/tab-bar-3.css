@@ -5,7 +5,7 @@
 .tab-bar-3 {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    background-color: var(tab-bar-background-color);
+    background-color: var(--tab-bar-background-color-lightPink);
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,6 @@
     text-align: center;
     margin: 30px;
     align-content: center;
-    /* padding: 30px; */
 }
 
 /* @media (min-width: 600px) {
@@ -30,7 +29,7 @@
 } */
 
 .tab-bar-3-container-textarea {
-    padding: 30px;
+    padding: 10px;
 }
 
 .tab-bar-3-button {
@@ -40,6 +39,7 @@
     padding: 30px;
     cursor: pointer;
     background-color: var(--tab-bar-button-background-color);
+    margin-top: 20px;
 }
 
 .tab-bar-3-button:hover {
@@ -68,16 +68,12 @@
     /* object-fit: cover; */
     width: 90%;
     height: 70%;
-    object-fit: contain;
+    object-fit: fill;
     border-radius: 20%;
     /* border: 1px solid #c1e9ff;
      */
     border: 1px solid var(--tab-bar-button-background-color);
-    padding: 30px;
-}
-
-.tab-bar-3-image:hover {
-    box-shadow: var(--tab-bar-box-shadow-glow);
+    padding: 5px;
 }
 
 @media (min-width: 600px) {
@@ -87,4 +83,8 @@
         height: 80%;
         object-fit: contain;
     }
+}
+
+.tab-bar-3-image:hover {
+    box-shadow: var(--tab-bar-box-shadow-glow);
 }
