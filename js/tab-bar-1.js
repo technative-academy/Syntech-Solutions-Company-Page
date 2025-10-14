@@ -14,19 +14,19 @@ function addEventListenerTabBar1TileElements(tabBar1TileElement) {
 function changeImage(event) {
     const currentElement = event.currentTarget;
     if (currentElement.classList.contains("tab1-tile1")) {
-        tabBar1ImageElement.src = "../images/tab-bar-1-img-1.png";
+        tabBar1ImageElement.src = "images/tab-bar-1-img-1.png";
         tabBar1ImageTextElement.textContent =
             "A simulated experience that employs 3D near-eye displays";
     } else if (currentElement.classList.contains("tab1-tile2")) {
-        tabBar1ImageElement.src = "../images/tab-bar-1-img-2.png";
+        tabBar1ImageElement.src = "images/tab-bar-1-img-2.png";
         tabBar1ImageTextElement.textContent =
             "Elements of sight, sound, and touch come together";
     } else if (currentElement.classList.contains("tab1-tile3")) {
-        tabBar1ImageElement.src = "../images/tab-bar-1-img-3.png";
+        tabBar1ImageElement.src = "images/tab-bar-1-img-3.png";
         tabBar1ImageTextElement.textContent =
             "Experienced when performing tactile operations that involve skill";
     } else {
-        tabBar1ImageElement.src = "../images/tab-bar-1-img-4.png";
+        tabBar1ImageElement.src = "images/tab-bar-1-img-4.png";
         tabBar1ImageTextElement.textContent =
             "Provides a virtual reality environment for the user";
     }
