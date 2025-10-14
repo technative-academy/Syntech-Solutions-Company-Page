@@ -1,15 +1,11 @@
 .tab-bar-3 p {
-    font-size: 20px;
-}
-
-.tab-bar-3 button {
-    font-size: 20px;
+    font-size: var(--tab-bar-p-element-text-font-size);
 }
 
 .tab-bar-3 {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    background-color: var(tab-bar-background-color);
+    background-color: var(--tab-bar-background-color-lightPink);
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -25,7 +21,6 @@
     text-align: center;
     margin: 30px;
     align-content: center;
-    /* padding: 30px; */
 }
 
 /* @media (min-width: 600px) {
@@ -34,18 +29,21 @@
 } */
 
 .tab-bar-3-container-textarea {
-    padding: 30px;
+    padding: 10px;
 }
 
-.tab-bar-3-container-button {
-    border-radius: 10%;
+.tab-bar-3-button {
+    /* border-radius: 10%; */
+    font-size: var(--tab-bar-button-text-font-size);
     border: none;
     padding: 30px;
     cursor: pointer;
+    background-color: var(--tab-bar-button-background-color);
+    margin-top: 20px;
 }
 
-.tab-bar-3-container-button:hover {
-    box-shadow: 0 0 50px 20px #c1e9ff;
+.tab-bar-3-button:hover {
+    box-shadow: var(--tab-bar-box-shadow-glow);
 }
 
 .tab-bar-3-right-container {
@@ -70,14 +68,12 @@
     /* object-fit: cover; */
     width: 90%;
     height: 70%;
-    object-fit: contain;
+    object-fit: fill;
     border-radius: 20%;
-    border: 1px solid #c1e9ff;
-    padding: 30px;
-}
-
-.tab-bar-3-image:hover {
-    box-shadow: 0 0 50px 20px #c1e9ff;
+    /* border: 1px solid #c1e9ff;
+     */
+    border: 1px solid var(--tab-bar-button-background-color);
+    padding: 5px;
 }
 
 @media (min-width: 600px) {
@@ -89,36 +85,6 @@
     }
 }
 
-.tab-bar-1-tabs {
-    margin-top: 40px;
-}
-
-@media (min-width: 600px) {
-    .tab-bar-1-tabs {
-        width: 50%;
-    }
-}
-
-.tab-bar-1-tab {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border-bottom: 1px solid grey;
-    padding: 15px;
-}
-
-.tab-bar-1-tab-bottom {
-    border-bottom: none;
-}
-
-.tab-bar-1-tab:hover {
-    background-color: var(--alt-background-color);
-    border-bottom: 5px solid rgb(160, 69, 245);
-}
-
-@media (min-width: 600px) {
-    .tab-bar-1 {
-        display: flex;
-    }
+.tab-bar-3-image:hover {
+    box-shadow: var(--tab-bar-box-shadow-glow);
 }
