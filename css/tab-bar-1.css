@@ -43,10 +43,6 @@
     }
 }
 
-.tab-bar-1-tiles {
-    /* margin-top: 40px; */
-}
-
 @media (min-width: 600px) {
     .tab-bar-1-tiles {
         width: 50%;
