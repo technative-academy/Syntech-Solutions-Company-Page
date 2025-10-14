@@ -1,5 +1,5 @@
 // get the button element with a class of ...
-const tabBar2Button = document.querySelector(".tab-bar-2-tabs-button");
+const tabBar2Button = document.querySelector(".tab-bar-2-button");
 
 // add an event listener to when people click on this button
 tabBar2Button.addEventListener("click", changeTextContentOfButton);

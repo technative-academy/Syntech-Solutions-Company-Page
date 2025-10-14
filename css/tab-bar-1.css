@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.tab-bar-1 p {
+    font-size: var(--tab-bar-p-element-text-font-size);
+}
+
 .tab-bar-1 {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
